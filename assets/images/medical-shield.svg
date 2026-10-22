@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 420" fill="none">
+  <defs>
+    <linearGradient id="shield" x1="58" y1="39" x2="299" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9f1dc"/><stop offset=".48" stop-color="#58c4b2"/><stop offset="1" stop-color="#287e83"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="75" y1="54" x2="283" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e3fff3" stop-opacity=".88"/><stop offset="1" stop-color="#65d7c4" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="plus" x1="133" y1="125" x2="228" y2="267" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4fff9"/><stop offset="1" stop-color="#d0f6eb"/>
+    </linearGradient>
+    <filter id="shadow" x="10" y="8" width="340" height="404" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="17"/></filter>
+  </defs>
+  <path d="M180 32 301 78v103c0 89-48 154-121 206C107 335 59 270 59 181V78l121-46Z" fill="#071d22" fill-opacity=".32" filter="url(#shadow)"/>
+  <path d="M180 31 301 77v103c0 89-48 154-121 206C107 334 59 269 59 180V77l121-46Z" fill="url(#shield)"/>
+  <path d="M180 53 280 91v87c0 74-38 130-100 178-62-48-100-104-100-178V91l100-38Z" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M180 53v303c62-48 100-104 100-178V91L180 53Z" fill="#0f6870" fill-opacity=".17"/>
+  <path d="M163 118h34v45h45v34h-45v45h-34v-45h-45v-34h45v-45Z" fill="url(#plus)"/>
+  <path d="M180 74v24M100 104l17 13M260 104l-17 13" stroke="#effff8" stroke-opacity=".48" stroke-width="5" stroke-linecap="round"/>
+</svg>
